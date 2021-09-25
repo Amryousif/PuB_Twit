@@ -322,25 +322,8 @@ def Guess_with_proxies(user,pasw):
 
         print(f'{banner}\n[-] Hunt : {hunt}\n[-] Bad : {bad}\n[-] Error : {error}')
 
-user = "Bazoka"
 
-password = "A.Bazoka"
-
-word1 = ""
-
-word2 = ""
-
-while word1 !=user :
-
-	word1 = input("Enter user: ")	while word2 !=password :
-
-		word2 = input("Enter password: ")
-
-		if word2 !=password :
-
-			print("try again")
-
-			
+		
 
 action = input(Y+"""
 
